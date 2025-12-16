@@ -1,4 +1,4 @@
-# Aviator Prompts (GA Clone)
+# Aviator Prompts
 
 A practical prompt pack for general aviation pilots: flight planning, weather interpretation, comms rehearsal, training debriefs, safety/risk, and maintenance write-ups.
 
