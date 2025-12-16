@@ -16,4 +16,4 @@ Open any file in `prompts/`, copy a prompt template, fill in the brackets, and r
 MIT — see `LICENSE`.
 
 ## Disclaimer
-Educational prompt tooling only. Not flight planning, and not a substitute for instruction, regulations, official briefings, or operational judgment.
+Safety and Liability Notice: Prompts and outputs generated using these templates may be incomplete, outdated, incorrect, or unsafe. This project does not provide operational approval, airworthiness determinations, legal advice, or flight dispatch services. Do not rely on AI-generated content for real-world flight decisions. Always comply with FAA regulations, follow the aircraft POH/AFM and company/operator procedures, obtain official briefings (weather/NOTAMs), and consult qualified aviation professionals as needed. Use at your own risk.
