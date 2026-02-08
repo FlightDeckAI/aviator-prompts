@@ -1,19 +1,53 @@
-# Aviator Prompts
+# PPLSYLLABUSDS
 
-A practical prompt pack for general aviation pilots: flight planning, weather interpretation, comms rehearsal, training debriefs, safety/risk, and maintenance write-ups.
+Minimal Nintendo DS homebrew syllabus tracker for a Private Pilot License (PPL) training plan.
 
-This repo is intentionally simple: it is primarily a **prompt library** in Markdown so you can copy/paste into ChatGPT, Gemini, or your own model.
+## Build
 
-## What's inside
-- `prompts/` — the prompt pack (Markdown)
-- `.github/` — issue templates + PR template
-- `LICENSE` — MIT
+1. Ensure `DEVKITPRO` is set and devkitARM + libnds are installed.
+2. Run:
 
-## How to use
-Open any file in `prompts/`, copy a prompt template, fill in the brackets, and run it.
+```sh
+make
+```
 
-## License
-MIT — see `LICENSE`.
+The output `.nds` is generated at:
 
-## Disclaimer
-Safety and Liability Notice: Prompts and outputs generated using these templates may be incomplete, outdated, incorrect, or unsafe. This project does not provide operational approval, airworthiness determinations, legal advice, or flight dispatch services. Do not rely on AI-generated content for real-world flight decisions. Always comply with FAA regulations, follow the aircraft POH/AFM and company/operator procedures, obtain official briefings (weather/NOTAMs), and consult qualified aviation professionals as needed. Use at your own risk.
+```
+PPLSYLLABUSDS.nds
+```
+
+## Install (for my daughter)
+
+1. Copy `PPLSYLLABUSDS.nds` to your flashcart SD card.
+2. Launch it from the flashcart menu or TWiLight Menu++.
+3. A save file will appear automatically if the flashcart supports FAT saves.
+
+## Controls
+
+**Global**
+- `START`: Quick jump to last day from the main menu.
+- `SELECT`: Save now.
+
+**Menu**
+- D-Pad: Move cursor
+- `A`: Select
+- Touch: Tap a menu button
+
+**Day Browser**
+- `L/R`: Previous/next day
+- `UP/DOWN`: Scroll content
+- `A`: Toggle completion (flight/ground/hw) or edit notes
+- `B`: Back (or exit notes edit)
+- Touch: Tabs, checkbox, or `[EDIT]`
+
+**Requirements**
+- `UP/DOWN`: Select item
+- `LEFT/RIGHT`: Decrease/increase hours by 0.1 (for counters)
+- `A`: Toggle checkbox
+- `B`: Back
+
+**Flashcards**
+- `L/R`: Previous/next card
+- `A`: Reveal/hide answer
+- `B`: Back
