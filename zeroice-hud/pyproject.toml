@@ -1,0 +1,31 @@
+[project]
+name = "zeroice-hud"
+version = "0.1.0"
+description = "Steam Deck FPV viewer with zero-ice HUD overlay"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "ZeroIce HUD Contributors" }
+]
+dependencies = [
+  "pyside6>=6.7.0",
+  "mpv>=1.0.6",
+  "requests>=2.31.0",
+  "pydantic>=2.7.0",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+zeroice-hud = "zeroice_hud.app:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
