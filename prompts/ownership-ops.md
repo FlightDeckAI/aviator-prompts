@@ -1,11 +1,11 @@
 # Aircraft Ownership & Ops
 
-    ## Preflight flow refresher (GA)
-    **Use when:** You want a mental checklist and common misses.  
-    **Tags:** preflight, flow, habit
+## Preflight flow refresher (GA)
+**Use when:** You want a mental checklist and common misses.  
+**Tags:** preflight, flow, habit
 
-    ```text
-    Act as a careful CFI.
+```text
+Act as a careful CFI.
 
 Aircraft type: [TYPE]
 Environment: [day/night, ramp/hangar]
@@ -16,14 +16,14 @@ Give me:
 - Top 10 common misses for this aircraft class
 - A short “before start” cockpit scan routine
 Keep it generic unless I provide POH details.
-    ```
+```
 
-    ## Post-flight write-up and next actions
-    **Use when:** You want a consistent post-flight process.  
-    **Tags:** postflight, ops, habit
+## Post-flight write-up and next actions
+**Use when:** You want a consistent post-flight process.  
+**Tags:** postflight, ops, habit
 
-    ```text
-    Create a post-flight template I can reuse.
+```text
+Create a post-flight template I can reuse.
 
 Include:
 - Aircraft status notes
@@ -34,14 +34,14 @@ Include:
 - Action items list
 
 Keep it one page.
-    ```
+```
 
-    ## Checklist modernization (owner edition)
-    **Use when:** You want to improve a checklist without changing meaning.  
-    **Tags:** checklist, standardization, ops
+## Checklist modernization (owner edition)
+**Use when:** You want to improve a checklist without changing meaning.  
+**Tags:** checklist, standardization, ops
 
-    ```text
-    I will paste a checklist (text).
+```text
+I will paste a checklist (text).
 
 Task:
 - Reformat for clarity and cockpit usability (group, headings, spacing)
@@ -51,5 +51,5 @@ Task:
 
 Checklist:
 [PASTE HERE]
-    ```
+```
 

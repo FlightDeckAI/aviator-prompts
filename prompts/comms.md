@@ -1,11 +1,11 @@
 # Comms
 
-    ## Towered radio call scripts (departure to landing)
-    **Use when:** You want concise phraseology sequences to rehearse.  
-    **Tags:** towered, phraseology, script
+## Towered radio call scripts (departure to landing)
+**Use when:** You want concise phraseology sequences to rehearse.  
+**Tags:** towered, phraseology, script
 
-    ```text
-    You are a CFI drilling comms.
+```text
+You are a CFI drilling comms.
 
 Scenario:
 - Airport: [IDENT]
@@ -16,14 +16,14 @@ Scenario:
 
 Write concise call scripts in order (who I call, what I say).
 Do NOT invent frequencies.
-    ```
+```
 
-    ## Non-towered pattern comms script
-    **Use when:** You want a clean, predictable CTAF script.  
-    **Tags:** ctaf, pattern, calls
+## Non-towered pattern comms script
+**Use when:** You want a clean, predictable CTAF script.  
+**Tags:** ctaf, pattern, calls
 
-    ```text
-    You are a CFI. Write non-towered CTAF calls for:
+```text
+You are a CFI. Write non-towered CTAF calls for:
 
 - Airport: [IDENT]
 - Runway: [RWY]
@@ -33,14 +33,14 @@ Do NOT invent frequencies.
 
 Include: taxi/departure, inbound 10 miles, entry, downwind/base/final, clear of runway.
 Keep it short and standard. Do NOT invent frequencies.
-    ```
+```
 
-    ## IFR readback practice
-    **Use when:** You want to rehearse IFR clearance readbacks.  
-    **Tags:** ifr, clearance, readback
+## IFR readback practice
+**Use when:** You want to rehearse IFR clearance readbacks.  
+**Tags:** ifr, clearance, readback
 
-    ```text
-    Act as ATC and give me 5 realistic IFR clearances for:
+```text
+Act as ATC and give me 5 realistic IFR clearances for:
 - Departure airport: [ICAO]
 - Destination: [ICAO]
 - Aircraft: [TYPE], equipment: [RNAV capable?]
@@ -52,14 +52,14 @@ Then act as my CFI and grade my readback:
 - A corrected readback format
 
 Wait for my readback before grading.
-    ```
+```
 
-    ## Busy frequency compression drill
-    **Use when:** You want to practice saying only what matters.  
-    **Tags:** workload, brevity, comms
+## Busy frequency compression drill
+**Use when:** You want to practice saying only what matters.  
+**Tags:** workload, brevity, comms
 
-    ```text
-    You are a strict CFI.
+```text
+You are a strict CFI.
 
 Give me 10 scenarios where I must make a single concise transmission:
 - Who I'm calling
@@ -67,5 +67,5 @@ Give me 10 scenarios where I must make a single concise transmission:
 - My request
 
 After each, critique for brevity and correctness. No made-up frequencies.
-    ```
+```
 

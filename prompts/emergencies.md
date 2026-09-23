@@ -1,11 +1,11 @@
 # Emergencies & Abnormals
 
-    ## Engine failure after takeoff (EFATO) chair brief
-    **Use when:** You want a crisp, phase-of-flight brief before departure.  
-    **Tags:** efato, brief, emergency
+## Engine failure after takeoff (EFATO) chair brief
+**Use when:** You want a crisp, phase-of-flight brief before departure.  
+**Tags:** efato, brief, emergency
 
-    ```text
-    You are my CFI. Create an EFATO brief for:
+```text
+You are my CFI. Create an EFATO brief for:
 
 - Airport/runway: [IDENT/RWY]
 - Departure path/terrain: [NOTES]
@@ -18,14 +18,14 @@ Output:
 - Decision gates (altitudes/speeds) expressed generically
 - What to avoid (common killer moves)
 Do not invent airport-specific obstacles I did not provide.
-    ```
+```
 
-    ## Alternator failure: checklist + decision path
-    **Use when:** You suspect charging system problems.  
-    **Tags:** electrical, alternator, abnormal
+## Alternator failure: checklist + decision path
+**Use when:** You suspect charging system problems.  
+**Tags:** electrical, alternator, abnormal
 
-    ```text
-    Act as a GA instructor. For an alternator/charging failure scenario:
+```text
+Act as a GA instructor. For an alternator/charging failure scenario:
 
 Inputs:
 - Aircraft: [TYPE]
@@ -39,14 +39,14 @@ Provide:
 - A short passenger briefing (if applicable)
 
 Avoid aircraft-specific POH steps unless I paste them.
-    ```
+```
 
-    ## Smoke in cockpit: decision checklist
-    **Use when:** You need a conservative response framework.  
-    **Tags:** smoke, fire, emergency
+## Smoke in cockpit: decision checklist
+**Use when:** You need a conservative response framework.  
+**Tags:** smoke, fire, emergency
 
-    ```text
-    You are my safety officer.
+```text
+You are my safety officer.
 
 Scenario:
 - Aircraft: [TYPE]
@@ -60,14 +60,14 @@ Create:
 - Divert and landing strategy
 - Post-landing actions
 Be conservative and keep it readable.
-    ```
+```
 
-    ## Unstable approach and go-around discipline
-    **Use when:** You want a hard rule and script to avoid pressing.  
-    **Tags:** go-around, stabilized, discipline
+## Unstable approach and go-around discipline
+**Use when:** You want a hard rule and script to avoid pressing.  
+**Tags:** go-around, stabilized, discipline
 
-    ```text
-    Act as a strict CFI.
+```text
+Act as a strict CFI.
 
 Aircraft: [TYPE]
 Runway: [IDENT/RWY], length: [FT]
@@ -78,5 +78,5 @@ Define:
 - A go-around trigger list (bullet)
 - A short go-around verbal script (callouts + actions)
 Keep it generic and conservative.
-    ```
+```
 

@@ -1,11 +1,11 @@
 # Flight Planning
 
-    ## Dispatch-style trip brief (VFR/IFR) in plain English
-    **Use when:** You want a concise, conservative go/no-go brief.  
-    **Tags:** brief, route, fuel, alternates
+## Dispatch-style trip brief (VFR/IFR) in plain English
+**Use when:** You want a concise, conservative go/no-go brief.  
+**Tags:** brief, route, fuel, alternates
 
-    ```text
-    You are my flight dispatcher and senior CFI.
+```text
+You are my flight dispatcher and senior CFI.
 
 Flight:
 - Departure: [ICAO]
@@ -26,14 +26,14 @@ Provide:
 5) Go / delay / no-go recommendation with rationale
 
 Ask only the minimum follow-up questions needed.
-    ```
+```
 
-    ## Fuel planning sanity check
-    **Use when:** You want to verify legs, reserves, and alternates.  
-    **Tags:** fuel, reserve, range
+## Fuel planning sanity check
+**Use when:** You want to verify legs, reserves, and alternates.  
+**Tags:** fuel, reserve, range
 
-    ```text
-    Act as a conservative GA operator.
+```text
+Act as a conservative GA operator.
 
 Inputs:
 - Aircraft: [TYPE], cruise burn [GPH], taxi burn [GPH or assume], usable fuel [GAL]
@@ -48,14 +48,14 @@ Compute a fuel plan per leg:
 - Reserve margin
 
 Flag any leg that is tight and propose fixes (altitude, power, stop, alternate). State assumptions.
-    ```
+```
 
-    ## Airspace and Bravo/B shelves check
-    **Use when:** You want a reminder of common airspace traps.  
-    **Tags:** airspace, bravo, route
+## Airspace and Bravo/B shelves check
+**Use when:** You want a reminder of common airspace traps.  
+**Tags:** airspace, bravo, route
 
-    ```text
-    You are a CFI. I will paste my route description and intended altitudes.
+```text
+You are a CFI. I will paste my route description and intended altitudes.
 
 Task:
 - Identify likely airspace conflicts (Class B/C/D, MOAs, restricted, SFRA, TFR risk areas)
@@ -66,14 +66,14 @@ Route/altitudes:
 [PASTE HERE]
 
 Do not invent frequencies or clearances. If you need more info, ask.
-    ```
+```
 
-    ## Performance and density altitude quick check
-    **Use when:** You’re operating on a warm day or high field elevation.  
-    **Tags:** performance, DA, takeoff
+## Performance and density altitude quick check
+**Use when:** You’re operating on a warm day or high field elevation.  
+**Tags:** performance, DA, takeoff
 
-    ```text
-    Act as a cautious performance engineer + CFI.
+```text
+Act as a cautious performance engineer + CFI.
 
 Given:
 - Aircraft: [TYPE]
@@ -86,14 +86,14 @@ Given:
 
 Estimate density altitude and discuss performance risk qualitatively.
 List what to compute/verify in POH and what “stop signs” would make you reduce weight, wait, or choose another runway/time.
-    ```
+```
 
-    ## Cross-country nav log helper
-    **Use when:** You want a quick, structured nav log outline.  
-    **Tags:** navlog, planning, wx
+## Cross-country nav log helper
+**Use when:** You want a quick, structured nav log outline.  
+**Tags:** navlog, planning, wx
 
-    ```text
-    You are my CFI. Create a nav log outline for:
+```text
+You are my CFI. Create a nav log outline for:
 - Route: [DEP] to [DEST] via [FIXES]
 - Cruise altitude: [ALT]
 - Cruise speed: [KTAS]
@@ -104,14 +104,14 @@ Output:
 - A nav log table structure (legs, headings, wind correction, groundspeed, ETE, fuel)
 - A short checklist for preflight planning items (wx, NOTAMs, weight/balance, alternates)
 Do not fabricate numbers I did not provide; mark unknowns clearly.
-    ```
+```
 
-    ## Passenger briefing script (GA)
-    **Use when:** You’re taking non-pilot passengers up.  
-    **Tags:** passenger, brief, safety
+## Passenger briefing script (GA)
+**Use when:** You’re taking non-pilot passengers up.  
+**Tags:** passenger, brief, safety
 
-    ```text
-    Write a clear passenger briefing script for a GA flight.
+```text
+Write a clear passenger briefing script for a GA flight.
 
 Flight context:
 - Aircraft: [TYPE]
@@ -125,5 +125,5 @@ Include:
 - Emergency items and evacuation guidance
 - What to do if I say “my aircraft”
 Keep it calm and short.
-    ```
+```
 

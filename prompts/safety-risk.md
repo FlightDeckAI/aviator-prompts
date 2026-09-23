@@ -1,11 +1,11 @@
 # Safety & Risk
 
-    ## PAVE + 5P risk assessment (rapid)
-    **Use when:** You want a quick risk picture and mitigations.  
-    **Tags:** pave, 5p, risk
+## PAVE + 5P risk assessment (rapid)
+**Use when:** You want a quick risk picture and mitigations.  
+**Tags:** pave, 5p, risk
 
-    ```text
-    Run a rapid PAVE + 5P assessment for this flight.
+```text
+Run a rapid PAVE + 5P assessment for this flight.
 
 Inputs:
 - Pilot: [experience, currency, fatigue]
@@ -19,14 +19,14 @@ Output:
 - Top 5 mitigations
 - Go/no-go recommendation
 Ask only the minimum follow-ups to decide.
-    ```
+```
 
-    ## Personal minimums builder
-    **Use when:** You want to define minimums that match your experience.  
-    **Tags:** minimums, go-no-go, personal
+## Personal minimums builder
+**Use when:** You want to define minimums that match your experience.  
+**Tags:** minimums, go-no-go, personal
 
-    ```text
-    Act as a CFI. Help me define personal minimums.
+```text
+Act as a CFI. Help me define personal minimums.
 
 My profile:
 - Rating(s): [PPL/IR/etc.]
@@ -41,14 +41,14 @@ Create a one-page personal minimums table for:
 - Icing/convective avoidance rules
 - Passenger/pressure limits
 Include a 3-step “raise minimums temporarily when…” rule.
-    ```
+```
 
-    ## Go/no-go decision memo
-    **Use when:** You want a clean written rationale for your choice.  
-    **Tags:** decision, brief, risk
+## Go/no-go decision memo
+**Use when:** You want a clean written rationale for your choice.  
+**Tags:** decision, brief, risk
 
-    ```text
-    Write a concise go/no-go memo for this flight.
+```text
+Write a concise go/no-go memo for this flight.
 
 Inputs:
 - Mission: [why I’m flying]
@@ -63,14 +63,14 @@ Output:
 - Rationale (bullet points)
 - Mitigations (if go)
 - Re-evaluation triggers (what would change my mind)
-    ```
+```
 
-    ## Threat and error management (TEM) plan
-    **Use when:** You want a proactive TEM plan for a specific flight.  
-    **Tags:** tem, threats, mitigation
+## Threat and error management (TEM) plan
+**Use when:** You want a proactive TEM plan for a specific flight.  
+**Tags:** tem, threats, mitigation
 
-    ```text
-    Act as a safety pilot and CFI.
+```text
+Act as a safety pilot and CFI.
 
 Flight summary:
 [PASTE]
@@ -82,5 +82,5 @@ Create a TEM table:
 - Countermeasure (specific, actionable)
 
 End with 5 “callouts” I should say aloud during the flight.
-    ```
+```
 

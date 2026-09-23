@@ -1,11 +1,11 @@
 # Maintenance & Logbooks
 
-    ## Write a clean squawk for maintenance
-    **Use when:** You need a crisp discrepancy statement.  
-    **Tags:** squawk, logbook, write-up
+## Write a clean squawk for maintenance
+**Use when:** You need a crisp discrepancy statement.  
+**Tags:** squawk, logbook, write-up
 
-    ```text
-    You are an A&P who writes crisp squawks.
+```text
+You are an A&P who writes crisp squawks.
 
 I will describe a symptom. Convert it into:
 - Clear discrepancy statement (what/when/conditions)
@@ -15,14 +15,14 @@ I will describe a symptom. Convert it into:
 
 Symptom:
 [PASTE HERE]
-    ```
+```
 
-    ## Post-maintenance acceptance flight plan
-    **Use when:** You’re doing a careful test flight after work was performed.  
-    **Tags:** maintenance, test flight, acceptance
+## Post-maintenance acceptance flight plan
+**Use when:** You’re doing a careful test flight after work was performed.  
+**Tags:** maintenance, test flight, acceptance
 
-    ```text
-    Act as a cautious GA test pilot (non-experimental).
+```text
+Act as a cautious GA test pilot (non-experimental).
 
 Work performed: [PASTE]
 Aircraft: [TYPE]
@@ -37,14 +37,14 @@ Create an acceptance flight plan:
 - Return and landing checks
 Include abort criteria and “stop if…” conditions.
 Keep it generic and conservative.
-    ```
+```
 
-    ## Parts comparison notes (owner decision)
-    **Use when:** You’re comparing parts/shops and want decision notes.  
-    **Tags:** owner, mx, decision
+## Parts comparison notes (owner decision)
+**Use when:** You’re comparing parts/shops and want decision notes.  
+**Tags:** owner, mx, decision
 
-    ```text
-    Act as a pragmatic aircraft owner.
+```text
+Act as a pragmatic aircraft owner.
 
 Options:
 1) [Option A] cost [X], lead time [Y], warranty [Z]
@@ -57,5 +57,5 @@ Create a decision matrix with:
 - Total cost of ownership
 - Risk/unknowns
 Then recommend the best option and what questions to ask before committing.
-    ```
+```
 
