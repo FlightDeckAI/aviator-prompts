@@ -1,0 +1,12 @@
+<gairmet>
+  <hazard>
+    <phenomenon>ICE</phenomenon>
+    <raw_text>G-AIRMET ZULU FOR ICE. FZLVL 110.</raw_text>
+    <polygon>
+      <point><lat>39.0</lat><lon>-105.0</lon></point>
+      <point><lat>40.0</lat><lon>-105.0</lon></point>
+      <point><lat>40.0</lat><lon>-104.0</lon></point>
+      <point><lat>39.0</lat><lon>-104.0</lon></point>
+    </polygon>
+  </hazard>
+</gairmet>
